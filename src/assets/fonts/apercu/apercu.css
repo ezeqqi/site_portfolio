@@ -1,0 +1,24 @@
+@font-face {
+  font-family: 'Apercu';
+  src: url('Apercu-Regular.woff2') format('woff2'),
+       url('Apercu-Regular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Apercu';
+  src: url('Apercu-Bold.woff2') format('woff2'),
+       url('Apercu-Bold.woff') format('woff');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* Adicione mais regras @font-face para outras variações da fonte */
+
+/* Estilos de exemplo */
+body {
+  font-family: 'Apercu', sans-serif;
+}
