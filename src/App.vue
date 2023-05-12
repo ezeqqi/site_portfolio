@@ -1,12 +1,18 @@
 <template>
   <v-app :theme="isDarkMode ? 'dark' : 'light'">
-    <v-main class="bg-mixed_1">
-      <!-- <v-row class="justify-end">
+    <v-main class="surface_1">
+      <v-row class="justify-end ">
         <v-col cols="3" class="mt-2">
-          <v-btn @click="toggleTheme">Toggle</v-btn>
+          <v-btn
+            :class="isDarkMode ? '':'text-surface_1'"
+            color="negative"
+            variant="outlined"
+            @click="toggleTheme"
+          >
+          Theme</v-btn>
         </v-col>
-      </v-row> -->
-      <HelloWorld />
+      </v-row>
+      <HelloWorld :colorTheme="isDarkMode"></HelloWorld>
     </v-main>
   </v-app>
 </template>
@@ -17,6 +23,5 @@ import { ref } from 'vue';
 const isDarkMode = ref(true)
 const toggleTheme = () => {
   isDarkMode.value = !isDarkMode.value
-  console.log('=>', isDarkMode.value)
 }
 </script>
