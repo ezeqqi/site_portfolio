@@ -18,8 +18,9 @@ export default createVuetify({
     themes: {
       dark: {
         colors:{
-          primary_1: '#6944f3', // https://colorffy.com/dark-theme-generator usar primary //
-          primary_2: '#b293f7',
+          primary_1: '#936df7', // https://colorffy.com/dark-theme-generator usar primary //
+          primary_2: '#6944f3',
+
           // primary_3: '#815bf5',
           // primary_4: '#9772f8',
           // primary_5: '#ab89fa',
@@ -27,10 +28,11 @@ export default createVuetify({
 
           mixed_1: '#1b1625',
           mixed_2: '#302b3a',
-          // mixed_3: '#46424f',
-          // mixed_4: '#5e5a66',
-          // mixed_5: '#76737e',
-          // mixed_6: '#908d96',
+
+          mixed_3: '#46424f',
+          mixed_4: '#5e5a66',
+          mixed_5: '#76737e',
+          mixed_6: '#908d96',
 
           negative: '#ebebeb',
           secondary: '#e3ff80',
@@ -72,7 +74,6 @@ export default createVuetify({
           // surface_6: '#8b8b8b',
         },
       }
-
     },
   },
 })

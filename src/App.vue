@@ -1,6 +1,6 @@
 <template>
   <v-app :theme="isDarkMode ? 'dark' : 'light'">
-    <v-main class="surface_1">
+    <v-main class="surface_1 pa-2">
       <v-row class="justify-end ">
         <v-col cols="3" class="mt-2">
           <v-btn
